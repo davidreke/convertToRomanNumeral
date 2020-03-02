@@ -1,0 +1,50 @@
+body {
+    font-family: Cardo;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(/romanNumeralCreator/pictures/roman-beige-msi-ceramic-tile-nrombei1818-64_1000.jpg)
+
+}
+
+.container {
+    min-height: 50vh;
+    width: 40vw;
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: black solid;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.container button {
+    font-family: Cardo;
+    font-size: 25px;
+    border-radius: 4px;
+    height: 35px;
+    width: 325px;
+    font-weight: 200;
+    margin: 25px;
+}
+
+.container button:hover{
+    font-family: Cardo;
+    font-size: 26px;
+    border-radius: 5px;
+    height: 39px;
+    width: 335px;
+    font-weight: 300;
+    margin: 23px;
+}
+
+
+#num{
+    width: 175px;
+    font-size: 25px;
+    text-align: center;
+}
